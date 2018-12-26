@@ -3,7 +3,7 @@
 ## Introduction
 Inspired in the original [BigBug](https://github.com/atakansarioglu/bigbug) by [Atakan SARIOGLU](https://github.com/atakansarioglu), this project was made initially to be a simpler cross-platform version (since I'm a linux user).
 
-If you are a embedded system developer, sometimes you will need to figure out what's going on in your board, and, unlike conventional computers that have screens and many debugging tools, embedded systems sometimes can be a black box.
+If you are an embedded system developer, sometimes you will need to figure out what's going on in your board, and, unlike conventional computers that have screens and many debugging tools, embedded systems sometimes can be a black box.
 
 Printing information via serial port can help solve a lot of problems, showing what is happening or not, but, on the other hand, it can cause some timing problems, since print functions are slow, and can be even slower if there are many characters.
 
@@ -54,4 +54,4 @@ Sensor 0 measurement: 723
 ~~~~
 
 
-Adjust the baudrate and serialport variables in the beggining of the main file according to your device, and simply execute `littlebug.py` while the device prints the information on the serial port and *voilá!*
+Adjust the baudrate and serialport variables in the beggining of the main file according to your device, and simply execute `littlebug.py` while the device prints the information on the serial port and *voilà!*
