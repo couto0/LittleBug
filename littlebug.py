@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import serial
 
 # Set here the baudrate and serial port your device is connected to
